@@ -1,95 +1,113 @@
-# SpendWise – Interactive Budget Dashboard
+# SpendWise – Personal Budget Dashboard
 
-## Project Description
+## 1. Project Overview
 
-SpendWise is a browser-based personal budgeting application designed to help users manage and monitor their expenses.
+SpendWise is a personal budgeting web application developed to help users manage their monthly finances, record expenses and monitor their remaining budget.
 
-The application allows users to add, view, and delete expense records while automatically calculating total expenses and remaining budget.
+The application provides a simple dashboard where users can add expenses, categorize spending, view expense history and track their financial progress.
 
-The dashboard uses JavaScript to process expense data, make budgeting decisions, handle user interactions, and dynamically update the webpage.
+## 2. Technologies Used
 
-This project was developed as part of the Software Development course and is deployed online using GitHub and Netlify.
+- **HTML5:** Semantic page structure and forms.
+- **CSS3:** Responsive layouts, styling and visual themes.
+- **JavaScript:** Expense management, calculations, validation and dynamic dashboard updates.
+- **Git and GitHub:** Version control and source code hosting.
+- **Netlify:** Website hosting and continuous deployment.
 
-## Technologies Used
+## 3. GitHub Repository
 
-- **HTML5:** Provides the structure of the application.
-- **CSS3:** Handles styling, layouts, responsive design, and dark mode.
-- **JavaScript:** Implements budgeting calculations, arrays, loops, conditionals, DOM manipulation, and event listeners.
-- **Git:** Tracks changes to the project.
-- **GitHub:** Hosts the project's source code.
-- **Netlify:** Hosts the live website and provides automatic deployment.
+**Public Repository:**  
+https://github.com/obsidian-high/plp-web-week7.git
 
-## GitHub Repository Information
+The repository contains the complete source code, project documentation and deployment evidence.
 
-**Repository Name:** SpendWise
+## 4. Live Website
 
-**Repository URL:** [INSERT YOUR PUBLIC GITHUB REPOSITORY URL]
-
-The repository contains:
-
-- `index.html`
-- `style.css`
-- `script.js`
-- `README.md`
-
-## Live Netlify Website
-
-**Live Website URL:** [INSERT YOUR ACTUAL NETLIFY URL]
+**Netlify Website:**  
+https://spendwise-budget-dashboard.netlify.app/
 
 The application is publicly accessible through Netlify.
 
-## Deployment Process Summary
+## 5. Deployment Process
 
 The project was deployed using GitHub and Netlify.
 
 The deployment process involved:
 
-1. Reviewing the project structure and confirming that all required files were present.
+1. Preparing and reviewing the HTML, CSS and JavaScript files.
 2. Creating a public GitHub repository.
-3. Uploading the SpendWise project files.
-4. Creating a Netlify account.
-5. Connecting Netlify to the GitHub account.
-6. Selecting the SpendWise repository.
-7. Configuring the deployment settings.
-8. Deploying the website.
-9. Changing the default Netlify site name to a meaningful SpendWise-related name.
-10. Testing the live website to confirm that its HTML, CSS, and JavaScript loaded correctly.
+3. Uploading the project files to GitHub.
+4. Connecting the GitHub repository to Netlify.
+5. Configuring the deployment settings.
+6. Publishing the website through Netlify.
+7. Testing the live website to confirm that it loaded correctly.
+
+## 6. Continuous Deployment
+
+Netlify was connected to the GitHub repository to enable continuous deployment.
+
+After making a change to the project and pushing the updated files to GitHub, Netlify automatically detected the changes and initiated a new deployment.
+
+The updated website was then checked to confirm that the changes appeared on the live version.
+
+## 7. Testing and Verification
+
+The following checks were performed:
+
+- Confirmed that the live website loads successfully.
+- Checked the dashboard layout and responsiveness.
+- Tested adding expenses.
+- Checked that expense totals and remaining balances update.
+- Tested deleting expenses.
+- Tested clearing the expense list.
+- Verified the successful Netlify deployment.
+- Verified automatic deployment following a GitHub update.
+
+## 8. Deployment Screenshots
+
+The following screenshots provide evidence of the project publication and deployment process.
+
+### Live Website
+
+![SpendWise Live Website](screenshots/live-website.png)
+
+### GitHub Repository
+
+![GitHub Repository](screenshots/github-repository.png)
+
+### Successful Netlify Deployment
+
+![Netlify Deployment](screenshots/netlify-deployment.png)
 
 ### Continuous Deployment
 
-Netlify was connected directly to the GitHub repository.
+![Continuous Deployment](screenshots/continuous-deployment.png)
 
-This enables continuous deployment. When changes are pushed to the connected GitHub branch, Netlify automatically starts a new deployment.
+### Mobile Responsiveness
 
-A visible update was made to the project and pushed to GitHub to test this process.
+![SpendWise Mobile View](screenshots/mobile-view.png)
 
-The updated version was then checked on the live website.
+## 9. Challenges Encountered
 
-## Challenges Encountered During Deployment
+One of the main challenges was configuring the connection between GitHub and Netlify and ensuring that the correct project files and deployment settings were used.
 
-The following are potential deployment issues and their solutions. Update this section to reflect the challenges actually encountered during your deployment.
+Another important part of the process was verifying that changes pushed to GitHub were automatically reflected on the live website.
 
-- **File organization:** Ensured that `index.html`, `style.css`, and `script.js` were correctly placed in the repository's root directory.
-- **File linking:** Checked that the HTML file referenced the correct CSS and JavaScript filenames.
-- **Deployment configuration:** Used the correct publishing directory and left the build command empty because the project does not require a build process.
-- **Automatic deployment:** Confirmed that Netlify was connected to the correct GitHub repository and deployment branch.
+These challenges were addressed by reviewing the repository structure, checking the deployment configuration and testing the published website.
 
-## Lessons Learned
+## 10. Lessons Learned
 
-This project provided practical experience with:
+Through this project, I gained practical experience in:
 
-- Preparing a frontend project for deployment.
-- Using Git and GitHub to manage source code.
-- Hosting a website using Netlify.
-- Connecting GitHub repositories to deployment platforms.
+- Publishing a web application using Netlify.
+- Hosting and managing source code using GitHub.
+- Connecting GitHub repositories to hosting platforms.
 - Understanding continuous deployment.
-- Testing a live website after deployment.
-- Identifying and resolving deployment configuration problems.
+- Testing a live web application.
+- Maintaining project documentation and deployment evidence.
 
-An important lesson was that developing a website is only one part of the development process. Publishing, testing, maintaining, and updating the application are also essential parts of delivering a working software product.
+## 11. Conclusion
 
-## Conclusion
+SpendWise demonstrates the development and deployment of a functional web application using HTML, CSS and JavaScript.
 
-SpendWise demonstrates how HTML, CSS, and JavaScript can be combined to create an interactive budgeting application and how a frontend project can be published online using GitHub and Netlify.
-
-The deployment process also demonstrates the importance of version control and continuous deployment in modern web development.
+By integrating GitHub with Netlify, the project also demonstrates how source code can be managed and automatically deployed whenever updates are pushed to the repository.
